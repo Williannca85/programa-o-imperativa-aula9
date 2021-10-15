@@ -4,26 +4,26 @@ function rapidFood(opcao, tempo) {
 if (opcao > 5) {
   msg = ("Prato inexistente!");
 } else if (opcao <= 5) {
-  if (opcao == 1) {
-    if (tempo > 20 && tempo <= 30) {
-      msg = ("A comida queimou!");
-    } else if (tempo < 10) {
-      msg = ("Tempo insuficiente!");
-    } else if (tempo > 30) {
-      msg = ("Kabumm!");
-    } else {
-      msg = ("Prato pronto, bom apetite!!!");
+        if (opcao == 1) {
+          if (tempo > 20 && tempo <= 30) {
+            msg = ("A comida queimou!");
+          } else if (tempo < 10) {
+            msg = ("Tempo insuficiente!");
+          } else if (tempo > 30) {
+            msg = ("Kabumm!");
+          } else {
+            msg = ("Prato pronto, bom apetite!!!");
     }
   } else if (opcao == 2 || opcao == 5) {
     if (tempo > 16 && tempo <= 24) {
       msg = ("A comida queimou!");
-    } else if (tempo < 8) {
-      msg = ("Tempo insuficiente!");
-    } else if (tempo > 24) {
-      msg = ("Kabumm!");
-    } else {
-      msg = ("Prato pronto, bom apetite!!!");
-    }
+          } else if (tempo < 8) {
+            msg = ("Tempo insuficiente!");
+          } else if (tempo > 24) {
+            msg = ("Kabumm!");
+          } else {
+            msg = ("Prato pronto, bom apetite!!!");
+          }
   } else if (opcao == 3) {
     if (tempo > 30 && tempo <= 45) {
       msg = ("A comida queimou!");
